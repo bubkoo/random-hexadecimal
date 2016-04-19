@@ -29,10 +29,10 @@ var randomHex = require('random-hexadecimal');
 randomHex();
 // => 0xaf91
 
-randomOctal(15);
+randomHex(15);
 // => 0od
 
-randomOctal(7, 15);
+randomHex(7, 15);
 // => 0o7ab9
 ```
 
