@@ -15,10 +15,11 @@
     "prepublish": "npm test"
   },
   "keywords": [
+    "hex",
+    "hexadecimal",
     "octal",
     "int",
     "number",
-    "hex",
     "randomly",
     "random",
     "rand",
