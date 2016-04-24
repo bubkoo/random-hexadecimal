@@ -1,7 +1,7 @@
 {
   "name": "random-hexadecimal",
-  "version": "1.0.1",
-  "description": "Generate a random hexadecimal number.",
+  "version": "1.0.2",
+  "description": "Return a random hexadecimal number.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -17,16 +17,14 @@
   "keywords": [
     "hex",
     "hexadecimal",
-    "octal",
-    "int",
     "number",
-    "randomly",
     "random",
-    "rand",
-    "sampling",
-    "generator",
-    "generate",
-    "gen"
+    "randomly",
+    "randomize",
+    "chance",
+    "test",
+    "dice",
+    "mock"
   ],
   "license": "MIT",
   "author": {
@@ -49,6 +47,6 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
-    "random-natural": "^1.0.0"
+    "random-natural": "^1.0.2"
   }
 }

@@ -1,8 +1,6 @@
 # random-hexadecimal
 
-> Generate a random hexadecimal number.
-
-
+> Return a random hexadecimal number.
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/mock-end/random-hexadecimal/blob/master/LICENSE)
 
@@ -24,7 +22,10 @@ $ npm install --save random-hexadecimal
 ```js
 var randomHex = require('random-hexadecimal');
 
-// randomHex(min, max);
+// API
+// - randomHex();
+// - randomHex(max);
+// - randomHex(min, max);
 
 randomHex();
 // => 0xaf91
@@ -38,28 +39,13 @@ randomHex(7, 15);
 
 ## Related
 
-- [random-integral](https://github.com/mock-end/random-integral) - Generate a random integer.
-- [random-natural](https://github.com/mock-end/random-natural) - Generate a random natural number.
-- [random-decimal](https://github.com/mock-end/random-decimal) - Generate a random decimal.
-- [random-index](https://github.com/mock-end/random-index) - Generate a random array-like index.
-- [random-octal](https://github.com/mock-end/random-octal) - Generate a random octal.
-- [random-unicode](https://github.com/mock-end/random-unicode) - Generate a random unicode.
-- [random-bool](https://github.com/mock-end/random-bool) - Generate a random boolean (true/false).
-- [random-char](https://github.com/mock-end/random-char) - Generate a random char.
-- [random-lorem](https://github.com/mock-end/random-lorem) - Generate a random world.
-- [random-title](https://github.com/mock-end/random-title) - Generate a random title.
-- [random-sentence](https://github.com/mock-end/random-sentence) - Generate a random sentence.
-- [random-paragraph](https://github.com/mock-end/random-paragraph) - Generate a random paragraph.
-- [random-tld](https://github.com/mock-end/random-tld) - Return a random tld.
-- [random-domains](https://github.com/mock-end/random-domains) - Generate a random domain name.
-- [random-uri](https://github.com/mock-end/random-uri.git) - Generate a random url.
-- [random-email](https://github.com/mock-end/random-email) - Generate a random email.
-- [random-lang](https://github.com/mock-end/random-lang) - Return a random language name.
-- [random-mobile](https://github.com/mock-end/random-mobile) - Generate a random chinese mobile phone number.
-- [random-zipcode](https://github.com/mock-end/random-zipcode) - Generate a random chinese zipcode.
-- [random-ipv4](https://github.com/mock-end/random-ipv4) - Generate a random ipv4 address.
-- [random-ipv6](https://github.com/mock-end/random-ipv6) - Generate a random ipv6 address.
-- [random-color](https://github.com/mock-end/random-color) - Generate a random color.
+- [random-binary](https://github.com/mock-end/random-binary) - Return a random binary number.
+- [random-octal](https://github.com/mock-end/random-octal) - Return a random octal number.
+- [random-integral](https://github.com/mock-end/random-integral) - Return a random integer.
+- [random-natural](https://github.com/mock-end/random-natural) - Return a random natural number.
+- [random-decimal](https://github.com/mock-end/random-decimal) - Return a random decimal.
+- [random-floating](https://github.com/mock-end/random-floating) - Return a random floating point number.
+
 
 ## Contributing
 
