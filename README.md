@@ -28,10 +28,6 @@ var randomHex = require('random-hexadecimal');
 // options
 // - min
 // - max
-
-
-
-
 ```
 
 By default it will return an hexadecimal number between `0` and `9007199254740992`:
