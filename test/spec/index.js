@@ -11,7 +11,7 @@ describe('random-hexadecimal: ', function () {
     expect(randomHex()).to.be.a('string');
   });
 
-  it('randomHex(15)', function () {
-    expect(randomHex(15)).to.be.match(/^0x[0-9a-f]$/);
+  it('randomHex({ max: 15 })', function () {
+    expect(randomHex({ max: 15 })).to.be.match(/^0x[0-9a-f]$/);
   });
 });
