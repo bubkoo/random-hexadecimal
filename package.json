@@ -1,6 +1,6 @@
 {
   "name": "random-hexadecimal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Return a random hexadecimal number.",
   "main": "index.js",
   "directories": {
@@ -47,6 +47,6 @@
     "mocha": "^2.4.5"
   },
   "dependencies": {
-    "random-natural": "^1.0.2"
+    "random-natural": "^1.0.3"
   }
 }
