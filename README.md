@@ -51,9 +51,7 @@ randomHex({ min: 7, max: 15});
 // => '0o7ab9'
 ```
 
-**Note**:
-
-These `min` and `max` are **inclusive**, so they are included in the range.
+**Note**: these `min` and `max` are **inclusive**, so they are included in the range.
 
 
 ## Related
